@@ -7,7 +7,127 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <h1>Admin dashboard</h1>
+            </div>
+            <div class="top-links-group">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Messages</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">Communities</a></li>
+                </ul>
+            </div>
+            <div class="bottom-links-group">
+                <ul>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="header">
+            <div class="search-bar">
+                <span><svg width="20px" height="20px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.545 15.467l-3.779-3.779a6.15 6.15 0 0 0 .898-3.21c0-3.417-2.961-6.377-6.378-6.377A6.185 6.185 0 0 0 2.1 8.287c0 3.416 2.961 6.377 6.377 6.377a6.15 6.15 0 0 0 3.115-.844l3.799 3.801a.953.953 0 0 0 1.346 0l.943-.943c.371-.371.236-.84-.135-1.211zM4.004 8.287a4.282 4.282 0 0 1 4.282-4.283c2.366 0 4.474 2.107 4.474 4.474a4.284 4.284 0 0 1-4.283 4.283c-2.366-.001-4.473-2.109-4.473-4.474z"/></svg></span>
+                <input type="text" placeholder="Search..." id="search-input">
+            </div>
+            <div class="user-profile">
+                <span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M26 25.71a22.94 22.94 0 0 1-1-6.58v-5.32a8.74 8.74 0 0 0-6-8.5V5a3 3 0 0 0-6 0v.29a8.73 8.73 0 0 0-6.06 8.52v5.32a22.6 22.6 0 0 1-1 6.58 1 1 0 0 0 1 1.29h5.2A4 4 0 0 0 16 30a4 4 0 0 0 3.83-3H25a1 1 0 0 0 .8-.4 1 1 0 0 0 .2-.89zM15 5a1 1 0 0 1 2 0h-2zm1 23a2 2 0 0 1-1.71-1h3.48A2 2 0 0 1 16 28zm3-3H8.24a25.2 25.2 0 0 0 .7-5.87v-5.32C8.94 10.06 11.67 7 15 7h1.9c3.36 0 6.1 3.06 6.1 6.81v5.32a25.2 25.2 0 0 0 .7 5.87z" style="fill:#231f20"/></svg></span>
+                <img src="https://i.pravatar.cc/150?img=3" alt="user profile picture">
+                <span>Arthur Morgan</span>
+            </div>
+            <div class="nav-bar">
+                <div class="user-welcome">
+                    <img src="https://i.pravatar.cc/150?img=3" alt="user profile picture">
+                    <span>Hi there, <p>Arthur Morgan</p></span>
+                </div>
+                <ul>
+                    <li><button type="button">New</button></li>
+                    <li><button type="button">Upload</button></li>
+                    <li><button type="button">Share</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="card-section">
+                <p>Your Projects</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Super cool project</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit ac orci in convallis</p>
+                        <div class="card-task-bar">
+                            <span>Favorite</span>
+                            <span>Has seen</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Less cool projects</h3>
+                        <p>ed vel lacinia diam. Suspendisse potenti. Etiam eu hendrerit lacus. Phasellus ac sem finibus eros posuere porta sed ac est</p>
+                        <div class="card-task-bar">
+                            <span>Favorite</span>
+                            <span>Has seen</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Impossible App</h3>
+                        <p>Nullam mi ipsum, vulputate nec nulla ut, scelerisque dignissim justo</p>
+                        <div class="card-task-bar">
+                            <span>Favorite</span>
+                            <span>Has seen</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Easy Peasy App</h3>
+                        <p>Vestibulum commodo, purus et volutpat facilisis, dolor nulla tempor orci, sit amet cursus sapien leo in arcu</p>
+                        <div class="card-task-bar">
+                            <span>Favorite</span>
+                            <span>Has seen</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Ad Blocker</h3>
+                        <p>Mauris nec ullamcorper velit. Pellentesque tellus augue, lacinia et erat ultricies, viverra vehicula velit. Proin tincidunt efficitur nisi. </p>
+                        <div class="card-task-bar">
+                            <span>Favorite</span>
+                            <span>Has seen</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Money maker</h3>
+                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam condimentum, turpis id rhoncus vulputate, lacus nibh blandit urna, interdum scelerisque neque est et velit.</p>
+                        <div class="card-task-bar">
+                            <span>Favorite</span>
+                            <span>Has seen</span>
+                            <span>Share</span>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+            <div class="table-section">
+                <div class="section">
+                    <p>Announcements</p>
+                    <div class="table-card">
+
+                    </div>
+                </div>
+                <div class="section">
+                    <p>Trending</p>
+                    <div class="table-card">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
 
