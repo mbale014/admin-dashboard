@@ -73,6 +73,17 @@ body {
   min-height: 100vh;
 }
 
+.user-info,
+.card,
+.main-content {
+  color: var(--primary-clr);
+}
+
+.card svg,
+.header svg {
+  fill: var(--primary-clr);
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -80,7 +91,7 @@ ul {
 
 a {
   text-decoration: none;
-  color:var(--white, white);
+  color:var(--primary-clr, white);
 }
 
 .container {
@@ -98,7 +109,6 @@ a {
     grid-template-rows: 1fr 3fr 7fr;
     align-content: start;
 
-    color:white;
     background-color: var(--mg-clr, steelblue);
 }
 
@@ -130,7 +140,7 @@ a {
 }
 
 .sidebar > div:nth-child(1n+2) a:hover {
-  color:var(--primary-clr)
+  color:var(--white)
 }
 
 .sidebar li {
@@ -138,7 +148,7 @@ a {
 }
 
 .sidebar svg {
-  fill: var(--white, white);
+  fill: var(--primary-clr, white);
 }
 
 .logo svg {
@@ -163,7 +173,7 @@ a svg {
     padding-left: var(--spacing-side-header);
     padding-right: calc(var(--spacing-side-header) * 1.5);
 
-    box-shadow: 1px 18px 33px -25px rgba(255, 115, 0, 0.4);
+    box-shadow: 1px 18px 33px -25px rgba(69, 104, 130, 0.753);
 }
 
 .header > div {
@@ -223,7 +233,7 @@ span svg {
 }
 
 #notif-button:hover svg {
-  fill: var(--primary-clr);
+  fill: var(--white);
 }
 
 
@@ -267,7 +277,7 @@ span svg {
 }
 
 button:hover {
-  background-color: #ac988b;
+  background-color: var(--white);
   cursor: pointer;
 }
 
@@ -300,8 +310,8 @@ button:hover {
   border-radius: 5px;
   padding: 1em;
 
-  box-shadow: rgba(255, 255, 255, 0.37) 2.4px 2.4px 3.2px;
-  background-color:var(--primary-clr, white);
+  box-shadow: rgba(69, 104, 130, 0.438) 2.4px 2.4px 3.2px;
+  background-color:var(--mg-clr, white);
 
 }
 
@@ -345,15 +355,15 @@ button svg {
 }
 
 .card-task-bar > button:hover {
-  background-color: lightgray;
+  background-color: var(--fg-clr);
 }
 
 .card:nth-child(odd) {
-  --accent-color-card: limegreen;
+  --accent-color-card: skyblue;
 }
 
 .card:nth-child(even) {
-  --accent-color-card: rgb(245, 234, 75);
+  --accent-color-card: steelblue;
 }
 
 .table-section {
@@ -371,7 +381,7 @@ button svg {
 
 .message {
   font-size: 0.9rem;
-  border-bottom: 1px solid rgb(202, 202, 202);
+  border-bottom: 1px solid rgb(231, 231, 231);
   margin: 1em 0;
 
 }
